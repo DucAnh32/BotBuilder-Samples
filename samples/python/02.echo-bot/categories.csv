@@ -1,0 +1,33 @@
+﻿Nhóm,Ý nghĩa ,Tên cột trong bảng
+Nhân khẩu học,Số CIF,CIF
+Nhân khẩu học,Tên khách hàng,TENKH
+Nhân khẩu học,Giới tính,GIOITINH
+Nhân khẩu học,Tuổi khách hàng,TUOI
+Nhân khẩu học,Tình trạng hôn nhân,TINHTRANGHONNHAN
+Nhân khẩu học,Số điện thoại,SDT
+Nhân khẩu học,Email,EMAIL
+Nhân khẩu học,Địa chỉ nhà,DIACHI
+Nhân khẩu học,Chức vụ nghề nghiệp,CHUCVUNGHENGHIEP
+Nhân khẩu học,Trình độ học vấn,TRINHDOHV
+Nhân khẩu học,Là khách hàng Priority,PRIORITYFLAG
+Nhân khẩu học,Là khách hàng Payroll,PAYROLLFLAG
+Dữ liệu bảo hiểm,Ngày liên hệ gần nhất với khách hàng,NGAYLIENHEGANNHAT
+Dữ liệu bảo hiểm,Phản hồi gần nhất của khách hàng,PHANHOIGANNHAT
+Dữ liệu bảo hiểm,Sản phẩm bảo hiểm nhân thọ khách hàng đã mua,SPBHNTDAMUA
+Dữ liệu bảo hiểm,Thời điểm mua bảo hiểm,NGAYMUABH
+Quan hệ với ngân hàng,Khách hàng đang sử dụng sản phẩm dịch vụ nào tại VCB,SPDV
+Quan hệ với ngân hàng,Trung bình thu nhập hàng tháng của khách hàng,THUNHAP
+Quan hệ với ngân hàng,Tên công ty trả lương cho khách hàng,TENCONGTY
+Quan hệ với ngân hàng,Doanh số chi tiêu thẻ ghi nợ trong 3 tháng gần đây,DSCTTHEGHINO
+Quan hệ với ngân hàng,Doanh số chi tiêu thẻ tín dụng trong 3 tháng gần đây,DSCTTHETINDUNG
+Quan hệ với ngân hàng,Tổng giao dịch chuyển tiền trên Digibank trong 3 tháng gần đây,DSCTDIGIBANK
+Quan hệ với ngân hàng,Số dư tiền gửi không kỳ hạn,SODUTG
+Quan hệ với ngân hàng,Số dư tiền gửi tiết kiệm,SODUTIETKIEM
+Quan hệ với ngân hàng,Dư nợ vay,DUNOVAY
+Quan hệ với ngân hàng,Nhóm nợ tại VCB,NHOMNOVCB
+Quan hệ với ngân hàng,Chi tiêu cho y tế trong 3 tháng gần đây,CHITIEUCHOYTE
+Quan hệ với ngân hàng,Chi tiêu cho du lịch trong 3 tháng gần đây,CHITIEUDULICH
+Quan hệ với ngân hàng,Chi tiêu cho đầu tư chứng khoán trong 3 tháng gần đây,CHITIEUDAUTUCK
+Propensity Score model,Đặc điểm nổi trội của khách hàng,DDNOITROI
+Propensity Score model,Điểm khả năng mua bảo hiểm của khách hàng,SCORE
+Chiến dịch,Thời điểm nên tiếp cận khách hàng,THOIDIEMTIEPCAN
