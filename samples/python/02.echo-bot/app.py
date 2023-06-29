@@ -43,6 +43,7 @@ async def on_error(context: TurnContext, error: Exception):
     # Send a trace activity if we're talking to the Bot Framework Emulator
     if context.activity.channel_id == "emulator":
         # Create a trace activity that contains the error object
+        
         trace_activity = Activity(
             label="TurnError",
             name="on_turn_error Trace",

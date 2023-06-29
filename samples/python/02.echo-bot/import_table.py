@@ -7,14 +7,14 @@ cnx = mysql.connector.connect(host="localhost",
         port="3306",
         user="root",
         password="vcbdac2023",
-        database="testdb")
+        database="demodb")
 
 # create a cursor object
 cursor = cnx.cursor()
 
 # specify the table name and DataFrame
-table_name = 'data_demo'
-data_frame = pd.read_csv('data_demo.csv')
+table_name = 'main_cus'
+data_frame = pd.read_csv('data_demo_1000.csv')
 
 # generate the SQL CREATE TABLE statement
 columns = list(data_frame.columns)

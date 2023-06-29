@@ -1,6 +1,3 @@
-import pandas as pd
+test=[1,2,3,4,5,6,7,8]
+print(test[-2])
 
-data=pd.read_csv('data.csv',encoding='UTF-8')
-categories=pd.read_csv('categories.csv',encoding='UTF-8')
-print(data)
-print(categories)

@@ -7,7 +7,7 @@ def get_sql_from_msg(msg):
     sql = msg[idx1 + 3:idx2].replace('\n', ' ')
     idx = sql.find("SELECT")
     sql = sql[idx:]
-    return sql
+    return str(sql)
 
 def get_list_idx(s,c):
     idxs = [pos for pos, char in enumerate(s) if char == c]
@@ -76,7 +76,6 @@ class database():
         self.mycursor.execute(sql)
         myresult = self.mycursor.fetchall()
         myresult= list(map(lambda x:x[0],myresult))
-        print(myresult)
         return myresult
 
     def get_sample_table(self,table):
@@ -97,6 +96,15 @@ class database():
         return output_string
 
     def execute_sql(self,sql):
+        self.mycursor.close()
+        self.mydb = mysql.connector.connect(
+            host="localhost",
+            port="3306",
+            user="root",
+            password="vcbdac2023",
+            database="demodb"
+        )
+        self.mycursor=self.mydb.cursor()
         self.mycursor.execute(sql)
         myresult = self.mycursor.fetchall()
         return myresult
@@ -112,6 +120,8 @@ class database():
 
 if __name__=="__main__":
     db=database()
-    print(db.get_schema())
+    q='''UPDATE main_cus SET FEEDBACK = "Khách hàng hẹn gặp lại sau" WHERE STT = "2"'''
+    print(db.execute_sql(f'''{q}'''))
+    db.mydb.commit()
 
 

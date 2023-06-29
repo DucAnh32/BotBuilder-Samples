@@ -1,33 +1,86 @@
-﻿Nhóm,Ý nghĩa ,Tên cột trong bảng
-Nhân khẩu học,Số CIF,CIF
-Nhân khẩu học,Tên khách hàng,TENKH
-Nhân khẩu học,Giới tính,GIOITINH
-Nhân khẩu học,Tuổi khách hàng,TUOI
-Nhân khẩu học,Tình trạng hôn nhân,TINHTRANGHONNHAN
-Nhân khẩu học,Số điện thoại,SDT
-Nhân khẩu học,Email,EMAIL
-Nhân khẩu học,Địa chỉ nhà,DIACHI
-Nhân khẩu học,Chức vụ nghề nghiệp,CHUCVUNGHENGHIEP
-Nhân khẩu học,Trình độ học vấn,TRINHDOHV
-Nhân khẩu học,Là khách hàng Priority,PRIORITYFLAG
-Nhân khẩu học,Là khách hàng Payroll,PAYROLLFLAG
-Dữ liệu bảo hiểm,Ngày liên hệ gần nhất với khách hàng,NGAYLIENHEGANNHAT
-Dữ liệu bảo hiểm,Phản hồi gần nhất của khách hàng,PHANHOIGANNHAT
-Dữ liệu bảo hiểm,Sản phẩm bảo hiểm nhân thọ khách hàng đã mua,SPBHNTDAMUA
-Dữ liệu bảo hiểm,Thời điểm mua bảo hiểm,NGAYMUABH
-Quan hệ với ngân hàng,Khách hàng đang sử dụng sản phẩm dịch vụ nào tại VCB,SPDV
-Quan hệ với ngân hàng,Trung bình thu nhập hàng tháng của khách hàng,THUNHAP
-Quan hệ với ngân hàng,Tên công ty trả lương cho khách hàng,TENCONGTY
-Quan hệ với ngân hàng,Doanh số chi tiêu thẻ ghi nợ trong 3 tháng gần đây,DSCTTHEGHINO
-Quan hệ với ngân hàng,Doanh số chi tiêu thẻ tín dụng trong 3 tháng gần đây,DSCTTHETINDUNG
-Quan hệ với ngân hàng,Tổng giao dịch chuyển tiền trên Digibank trong 3 tháng gần đây,DSCTDIGIBANK
-Quan hệ với ngân hàng,Số dư tiền gửi không kỳ hạn,SODUTG
-Quan hệ với ngân hàng,Số dư tiền gửi tiết kiệm,SODUTIETKIEM
-Quan hệ với ngân hàng,Dư nợ vay,DUNOVAY
-Quan hệ với ngân hàng,Nhóm nợ tại VCB,NHOMNOVCB
-Quan hệ với ngân hàng,Chi tiêu cho y tế trong 3 tháng gần đây,CHITIEUCHOYTE
-Quan hệ với ngân hàng,Chi tiêu cho du lịch trong 3 tháng gần đây,CHITIEUDULICH
-Quan hệ với ngân hàng,Chi tiêu cho đầu tư chứng khoán trong 3 tháng gần đây,CHITIEUDAUTUCK
-Propensity Score model,Đặc điểm nổi trội của khách hàng,DDNOITROI
-Propensity Score model,Điểm khả năng mua bảo hiểm của khách hàng,SCORE
-Chiến dịch,Thời điểm nên tiếp cận khách hàng,THOIDIEMTIEPCAN
+﻿Nhóm,Ý nghĩa ,Tên cột trong bảng,Khoảng dữ liệu
+Nhân khẩu học,Số thứ tự,STT,Ký tự
+Nhân khẩu học,Số CIF,CUS_CIF_NBR,Ký tự
+Nhân khẩu học,Tên khách hàng,CUS_NM,Ký tự
+Nhân khẩu học,Ngày mở CIF,DTE_OPN_CIF,Ký tự
+Nhân khẩu học,Chi nhánh mở CIF,BRN_OPN_CIF,Số
+Nhân khẩu học,Giới tính,CUS_GEN,"Nam
+Nữ"
+Nhân khẩu học,Tuổi khách hàng,AGE,Số
+Nhân khẩu học,Tình trạng hôn nhân,TINHTRANGHONNHAN,"Độc thân
+Có gia đình
+Ly dị"
+Nhân khẩu học,Số điện thoại,CUS_PHONE,Ký tự
+Nhân khẩu học,Địa chỉ email,CUS_MAIL,Ký tự
+Nhân khẩu học,Địa chỉ nhà,CUS_ADRR,Ký tự
+Nhân khẩu học,Chức vụ nghề nghiệp,TINHCHATCVHT,"Các trường hợp khác(Công nhân, sinh viên…)
+Cán bộ quản lý trung cấp
+Cán bộ quản lý cao cấp
+Cán bộ văn phòng
+Cán bộ quản lý sơ cấp"
+Nhân khẩu học,Trình độ học vấn,TRINHDOHOCVAN,"Tốt nghiệp phổ thông trung học
+Đại học/ Trên Đại học
+Trung cấp (hoặc tương đương)
+Cao đẳng (hoặc tương đương)
+Chưa tốt nghiệp phổ thông trung học"
+Nhân khẩu học,Trung bình thu nhập hàng tháng của khách hàng,AVG_AMT_3M,Số
+Dữ liệu bảo hiểm,Ngày liên hệ gần nhất với khách hàng,CALL_DATE,Ký tự
+Dữ liệu bảo hiểm,Phản hồi gần nhất của khách hàng,STATUS_ADV,"Khách hàng từ chối – khách hàng không có nhu cầu
+Đồng ý gặp mặt"
+Dữ liệu bảo hiểm,KH có bảo hiểm nhân thọ hay không?,CUST_BANCASED,"Có
+Không"
+Dữ liệu bảo hiểm,Sản phẩm bảo hiểm nhân thọ khách hàng đã mua,SANPHAMBHNTDAMUA,"FWD Đón đầu thay đổi 3.0
+FWD Vững Ước Mơ
+FWD Đón đầu thay đổi 2.0
+FWD Nâng tầm vị thế 2.0
+FWD Nâng tầm vị thế
+FWD Cả nhà vui khỏe - Kế hoạch A
+"
+Dữ liệu bảo hiểm,Thời điểm mua bảo hiểm,NGAYMUABH,Ký tự
+Quan hệ với ngân hàng VCB,Khách hàng đang sử dụng sản phẩm dịch vụ nào tại VCB,SPDV,"Tiền gửi không kỳ hạn
+Tiền gửi có kỳ hạn
+Khách hàng có khoản vay BĐS 
+Khách hàng có khoản vay ô tô 
+Khách hàng có khoản vay SXKD
+Khách hàng có khoản vay tiêu dùng khác 
+Khách hàng có thẻ TDQT 
+Khách hàng có thẻ GNQT 
+Khách hàng có thẻ GNNĐ 
+Khách hàng có bảo hiểm 
+Khách hàng sử dụng autodebit"
+Quan hệ với ngân hàng VCB,Là khách hàng Priority,PRIORITYFLAG,"P1, P2, P3, P4, P4A, P4B, P5, P5A, P6, P7"
+Quan hệ với ngân hàng VCB,Chi nhánh quản lý Priority,BRN_MNGT_PRIO,Ký tự
+Quan hệ với ngân hàng VCB,Là khách hàng Payroll,PAYROLLFLAG,"Có
+Không"
+Quan hệ với ngân hàng VCB,Doanh số chi tiêu thẻ ghi nợ trong 3 tháng gần đây,DSCTTHEGHINO,Số
+Quan hệ với ngân hàng VCB,Doanh số chi tiêu thẻ tín dụng trong 3 tháng gần đây,DSCTTHETINDUNG,Số
+Quan hệ với ngân hàng VCB,Tổng ghi nợ tài khoản tiền gửi không kỳ hạn trong 3 tháng gần đây,DSCTNOTIENGUI,Số
+Quan hệ với ngân hàng VCB,Tổng ghi có tài khoản tiền gửi không kỳ hạn trong 3 tháng gần đây,DSCTCOTIENGUI,Số
+Quan hệ với ngân hàng VCB,Tổng giao dịch chuyển tiền trên Digibank trong 3 tháng gần đây,DSCTDIGIBANK,Số
+Quan hệ với ngân hàng VCB,Số dư bình quân tài khoản tiền gửi không kỳ hạn trong 12 tháng,AVG_BAL_TA_E12M,Số
+Quan hệ với ngân hàng VCB,Số dư bình quân tài khoản tiền gửi tiết kiệm trong 12 tháng,AVG_BAL_TM_E12M,Số
+Quan hệ với ngân hàng VCB,Số dư bình quân tài khoản vay trong 12 tháng,AVG_BAL_LN_E12M,Số
+Quan hệ với ngân hàng VCB,Số dư tiền gửi không kỳ hạn,SODUTIENGUI,Số
+Quan hệ với ngân hàng VCB,Số dư tiền gửi tiết kiệm,SODUTIETKIEM,Số
+Quan hệ với ngân hàng VCB,Dư nợ vay,DUNOVAY,Số
+Quan hệ với ngân hàng VCB,Nhóm nợ tại VCB,NHOMNOVCB,"1
+2
+3
+4
+5"
+Quan hệ với ngân hàng VCB,Ngày đến hạn sổ tiết kiệm,MATDT,Ký tự
+Quan hệ với ngân hàng VCB,Chi tiêu cho y tế trong 3 tháng gần đây,CHITIEUCHOYTE,Số
+Quan hệ với ngân hàng VCB,Chi tiêu cho giáo dục trong 3 tháng gần đây,CHITIEUCHOGD,Số
+Quan hệ với ngân hàng VCB,Chi tiêu cho du lịch trong 3 tháng gần đây,CHITIEUCHODULICH,Số
+Quan hệ với ngân hàng VCB,Chi tiêu cho đầu tư chứng khoán trong 3 tháng gần đây,CHITIEUDAUTUCK,Số
+Propensity Score model,Lý do khách hàng mua bảo hiểm,LYDOMUABAOHIEM,Ký tự
+Propensity Score model,Điểm khả năng mua bảo hiểm của khách hàng theo dự đoán của mô hình,SCORE,Ký tự
+Propensity Score model,Đã tiếp cận,DATIEPCAN,"0
+1"
+Propensity Score model,Khách hàng đã được liên hệ chưa ,DATIEPCAN,"Chưa tiếp cận
+Đã tiếp cận"
+Propensity Score model,Feedback của khách hàng,FEEDBACK,"Khác
+Đồng ý gặp mặt
+Từ chối"
+Propensity Score model,Ghi chú về khách hàng,NOTE,ký tự
+Propensity Score model,Nhân viên RM liên hệ khách hàng,RMTIEPCAN,ký tự
